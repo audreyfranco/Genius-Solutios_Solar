@@ -1,0 +1,111 @@
+:root {
+  --branding-color: #003d58;
+  --heading-font-family: "Kanit", sans-serif;
+  --sub-heading-font-family: "Lora", serif;
+}
+
+h1 {
+  color: white;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
+
+hr {
+  color: white;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+  text-align: center;
+  color: var(--branding-color);
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  text-align: center;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  margin: 20px;
+  padding: 100px 0px 120px 0px;
+}
+
+.hero h2 {
+  color: #bbd9ec;
+  font-family: var(--heading-font-family);
+  font-family: var(--sub-heading-font-family);
+  font-size: 24px;
+}
+
+.hero h4 {
+  color: white;
+  font-size: 36px;
+}
+
+.hero p {
+  color: white;
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+
+.btn-branding {
+  background: white;
+  border-radius: 10px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.btn-enroll {
+  background: var(--branding-color);
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.new {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid var(--branding-color);
+  border-radius: 5px;
+  width: 300px;
+}
+
+.navbar {
+  background-color: var(--branding-color);
+  font-family: var(--heading-font-family) !important;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-item {
+  padding: 0 30px;
+  font-size: 30px !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.active {
+  font-weight: bolder;
+  color: #bbd9ec !important;
+}
+
+.info {
+  text-align: center;
+  color: #bbd9ec;
+  background-color: var(--branding-color);
+}
+
+.info p {
+  margin: 0 350px;
+}
